@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Score:</h1>
+        <h2>
+            <span id="count-el">0</span> - 
+            <span id="second-count-el">0</span>
+        </h2>
+        <div class="container-wrapper">
+            <div class="button-container">
+                <button class="blue" onclick="add1to1()">Add 1</button>
+                <button class="blue" onclick="add2to1()">Add 2</button>
+                <button class="blue" onclick="add3to1()">Add 3</button>
+                <button class="black" onclick="clear1()">Clear</button>
+            </div>
+            <div class="button-container">
+                <button class="pink" onclick="add1to2()">Add 1</button>
+                <button class="pink" onclick="add2to2()">Add 2</button>
+                <button class="pink" onclick="add3to2()">Add 3</button>
+                <button class="black" onclick="clear2()">Clear</button>
+            </div>
+        </div>
+        <div class="check-button-wrapper">
+            <button class="check" onclick="checkResult()">Check</button>
+        </div>
+        <h3 id="result-el">No result</h3>
+        <script src="index.js">  </script>
+    </body>
+</html>
