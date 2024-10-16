@@ -37,11 +37,11 @@ function clear2(){
     secCountEl.textContent = secondCount
 }
 function checkResult(){
-    if(count>secondCount){
+    if(count<secondCount){
         result="Right side wins!"
         resultEl.textContent=result
     }
-    else if(count<secondCount){
+    else if(count>secondCount){
         result="Left side wins!"
         resultEl.textContent=result
     }
